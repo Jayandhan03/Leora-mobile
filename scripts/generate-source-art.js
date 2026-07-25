@@ -6,7 +6,6 @@ const ROOT = path.resolve(__dirname, "..");
 const svgPath = path.join(ROOT, "..", "Leora", "app", "icon.svg");
 const outDir = path.join(ROOT, "resources");
 
-const BRAND_GREEN = "#0BA678";
 const BG_LIGHT = "#FBFAF7";
 
 async function main() {
