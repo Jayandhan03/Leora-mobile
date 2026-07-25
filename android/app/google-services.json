@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1026194582181",
+    "project_id": "leora-03",
+    "storage_bucket": "leora-03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026194582181:android:150dc28089c4aa53c4fb4c",
+        "android_client_info": {
+          "package_name": "com.leora.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQMW5cAVMra6eZRsH99JfT8MgtviIjXG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
