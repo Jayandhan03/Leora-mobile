@@ -1,0 +1,10 @@
+{
+  "appId": "com.leora.app",
+  "appName": "Leora",
+  "webDir": "www",
+  "server": {
+    "url": "https://yournews-three.vercel.app",
+    "androidScheme": "https",
+    "cleartext": false
+  }
+}

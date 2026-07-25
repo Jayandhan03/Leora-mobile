@@ -1,0 +1,22 @@
+node_modules/
+releases/
+
+# Android
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/captures/
+android/.idea/
+android/app/release/
+android/key.properties
+*.keystore
+*.jks
+!debug.keystore
+
+# iOS (phase 2)
+ios/App/Pods/
+ios/App/build/
+ios/App/App/public/
+
+.DS_Store
