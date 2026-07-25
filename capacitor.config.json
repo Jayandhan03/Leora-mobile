@@ -6,5 +6,11 @@
     "url": "https://yournews-three.vercel.app",
     "androidScheme": "https",
     "cleartext": false
+  },
+  "plugins": {
+    "GoogleAuth": {
+      "scopes": ["profile", "email"],
+      "clientId": "587902009534-avn97ksbagq6q6l88lqev1uqafock3r5.apps.googleusercontent.com"
+    }
   }
 }
