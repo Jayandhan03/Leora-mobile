@@ -99,6 +99,20 @@ visual layout inspector, logcat UI, etc.) you can still install it — point it
 at the same `D:\Android\Sdk` and it'll reuse everything here instead of
 downloading its own copy.
 
+## Push notifications need google-services.json (not in git)
+
+`android/app/google-services.json` is required for push notifications to
+work (the `com.google.gms.google-services` Gradle plugin in `android/app/
+build.gradle` only activates when this file exists) but is git-ignored —
+GitHub flags Firebase config as a "possible secret" on public repos, and
+even though it's not a traditional credential, there's no reason to keep it
+in history. Without it, everything else still builds fine; push notifications
+just won't register on Android.
+
+To get it: Firebase Console → your project (`leora-03`) → Project settings →
+your Android app (`com.leora.app`) → download `google-services.json` → drop
+it in `android/app/`.
+
 ## Rebuilding
 
 ```bash

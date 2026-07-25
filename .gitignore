@@ -14,6 +14,13 @@ android/key.properties
 *.jks
 !debug.keystore
 
+# Firebase config — flagged by GitHub secret scanning when committed to a
+# public repo. Not a traditional secret (Firebase's own docs say it's safe
+# client-side), but keep it out of git anyway; re-download from Firebase
+# Console > Project settings > your Android app > google-services.json,
+# and restrict its API key's application/API scope in Google Cloud Console.
+android/app/google-services.json
+
 # iOS (phase 2)
 ios/App/Pods/
 ios/App/build/
